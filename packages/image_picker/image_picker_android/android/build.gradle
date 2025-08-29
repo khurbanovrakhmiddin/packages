@@ -23,10 +23,11 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'io.flutter.plugins.imagepicker'
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
 
     defaultConfig {
         minSdkVersion 21
+        targetSdkVersion 34
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
