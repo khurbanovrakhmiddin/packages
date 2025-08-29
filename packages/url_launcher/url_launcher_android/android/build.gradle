@@ -26,10 +26,11 @@ android {
         buildConfig true
     }
     namespace 'io.flutter.plugins.urllauncher'
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
 
     defaultConfig {
         minSdkVersion 21
+        targetSdkVersion 34
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
